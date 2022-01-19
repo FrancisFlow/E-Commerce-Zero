@@ -28,3 +28,11 @@ def women():
 @app.route('/women')
 def men():
    return render_template ('women.html')
+
+@app.route('/login')
+def login():
+   return render_template ('login.html')
+
+@app.route('/signup')
+def signup():
+   return render_template ('signup.html')

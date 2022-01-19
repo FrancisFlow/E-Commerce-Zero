@@ -28,15 +28,6 @@ def  women():
 def men():
     return render_template('men.html')
 
-@app.route('/boys')
-def boys():
-    return render_template('boys.html')
-
-
-@app.route('/girls')
-def girls():
-    return render_template('girls.html')
-
 @app.route('/contact')
 def contact():
     return render_template('contact.html')

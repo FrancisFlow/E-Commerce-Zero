@@ -2,6 +2,9 @@ body , html {
 background-color: antiquewhite;
 }
 
-
+#cart{
+    position: relative;
+    left:870px;
+}
 
 
